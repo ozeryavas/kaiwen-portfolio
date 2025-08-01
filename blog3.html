@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaiwen - Clean Coding with HTML5 and CSS3</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide&effect=outline">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/blog-detail.css">
+</head>
+<body>
+
+  <div class="page-wrapper">
+  
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <nav class="navbar__container">
+        
+        <!-- Logo -->
+        <a href="index.html" class="logo">
+          <span class="logo__text font-effect-outline"><span class="logo__highlight">Kai</span>wen</span>
+        </a>
+
+        <!-- Hamburger -->
+        <div class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- Menu -->
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link"><i class="nav-link__icon fas fa-home"></i> Home</a></li>
+          <li><a href="about.html" class="nav-link"><i class="nav-link__icon fas fa-user"></i> About</a></li>
+          <li><a href="projects.html" class="nav-link"><i class="nav-link__icon fas fa-briefcase"></i> Projects</a></li>
+          <li><a href="blog.html" class="nav-link nav-link--active"><i class="nav-link__icon fas fa-pen-nib"></i> Blog</a></li>
+          <li><a href="contact.html" class="nav-link"><i class="nav-link__icon fas fa-envelope"></i> Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <div class="main-container blog-detail" data-aos="fade-down" data-aos-delay="200">
+
+        <!-- Header -->
+        <section class="blog-hero" data-aos="fade-down" data-aos-delay="400">
+          <div class="blog-hero__overlay">
+            <h1 class="blog-hero__title">Clean Coding with HTML5 and CSS3</h1>
+            <div class="blog-hero__meta">
+              <i class="fas fa-user"></i> Kaiwen
+              <span>&bull;</span>
+              <i class="fas fa-calendar-alt"></i> April 27, 2025
+            </div>
+          </div>
+          <img src="images/blog3.jpg" alt="Clean Code" class="blog-hero__image">
+        </section>
+
+        <!-- Content -->
+        <section class="blog-detail__content">
+          <p class="blog-detail__paragraph">
+            Clean coding improves project maintainability and supports team collaboration... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem incidunt odio quaerat vitae, saepe nobis unde iusto dignissimos id ratione pariatur, numquam nam vero ipsam assumenda consequatur, dolores praesentium magnam tempore. Eligendi, aliquam. Tempore ipsa doloribus ipsam, tempora iure quos.
+          </p>
+          <p class="blog-detail__paragraph">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum nostrum est, itaque laboriosam esse praesentium quod eligendi commodi odit quas enim suscipit animi qui, officia illo voluptatibus at cum. Aliquam adipisci error tempore exercitationem eveniet obcaecati provident totam veritatis eligendi?
+          </p>
+
+          <div class="blog-detail__list-image" data-aos="fade-down" data-aos-delay="400">
+            <!-- Illustration -->
+            <div class="blog-detail__illustration">
+              <img src="images/cleancode.png" alt="Clean code illustration" class="blog-detail__image">
+            </div>
+            <!-- Lıst -->
+            <div class="blog-detail__list">
+              <h2 class="blog-detail__heading">Tips for Clean Coding</h2>
+              <ul class="blog-detail__list">
+                <li class="blog-detail__item"><i class="fas fa-check-circle blog-detail__icon"></i> Use HTML elements properly (semantic structure)</li>
+                <li class="blog-detail__item"><i class="fas fa-check-circle blog-detail__icon"></i> Name your CSS classes clearly and logically</li>
+                <li class="blog-detail__item"><i class="fas fa-check-circle blog-detail__icon"></i> Avoid unnecessary code repetition</li>
+                <li class="blog-detail__item"><i class="fas fa-check-circle blog-detail__icon"></i> Add comments to explain your code</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Quote -->
+          <div data-aos="fade-down" data-aos-delay="400">
+            <blockquote class="blog-detail__quote">
+              "Clean code should be readable not only by machines but by humans."
+              <span class="blog-detail__quote-author">– Robert C. Martin</span>
+            </blockquote>
+          </div>
+
+          <!-- Final Paragraph -->
+          <div class="blog-detail__content" data-aos="fade-down" data-aos-delay="400">
+            <p class="blog-detail__paragraph">
+              A clean code structure not only benefits you, but also supports the workflow of other developers working on the same project. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus perferendis officiis repellat aspernatur unde illum eius qui ut sed exercitationem fugit ex, voluptatibus mollitia nostrum?
+            </p>       
+          </div>
+
+          <!-- Navigation -->
+          <div class="blog-detail__nav">
+            <a href="blog2.html" class="blog-detail__nav-link">
+              &larr; Previous 
+            </a>
+            <a href="blog1.html" class="blog-detail__nav-link">
+              Next &rarr;
+            </a>
+          </div>
+
+        </section>
+
+        <!-- Author -->
+        <section class="blog-detail__author" data-aos="fade-down" data-aos-delay="400">
+          <img src="images/profile.png" alt="Author Kaiwen" class="blog-detail__author-image">
+          <div class="blog-detail__author-info">
+            <h4 class="blog-detail__author-name">Kaiwen</h4>
+            <p class="blog-detail__author-bio">
+              Freelance frontend developer and UI/UX enthusiast. Passionate about creating minimal and user-friendly designs.
+            </p>
+            <div class="blog-detail__author-social">
+              <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Share -->
+        <section class="blog-detail__share" data-aos="fade-down" data-aos-delay="400">
+          <h3 class="blog-detail__share-title">Share this post</h3>
+          <div class="blog-detail__share-buttons">
+            <a href="#" class="blog-detail__share-button" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" class="blog-detail__share-button" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="blog-detail__share-button" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          </div>
+        </section>
+
+        <!-- Comments -->
+        <section class="blog-detail__comments" data-aos="fade-down" data-aos-delay="400">
+          <h2 class="blog-detail__comments-title">Leave a Comment</h2>
+
+          <form class="blog-detail__form">
+            <input type="text" placeholder="Your name" required class="blog-detail__input">
+            <input type="email" placeholder="Your email address" required class="blog-detail__input">
+            <textarea placeholder="Your comment" rows="5" required class="blog-detail__textarea"></textarea>
+            <button type="submit" class="blog-detail__submit">Submit</button>
+          </form>
+
+          <div class="blog-detail__comment-list" data-aos="fade-down" data-aos-delay="400">
+            <div class="blog-detail__comment">
+              <img src="images/avatarwomen.png" alt="Emily" class="blog-detail__comment-avatar">
+              <div class="blog-detail__comment-body">
+                <div class="blog-detail__comment-header">
+                  <strong class="blog-detail__comment-author">Emily</strong>
+                  <span class="blog-detail__comment-date">April 28, 2025</span>
+                </div>
+                <p class="blog-detail__comment-text">
+                  Great post, I learned a lot. Looking forward to more!
+                </p>
+              </div>
+            </div>
+
+            <div class="blog-detail__comment">
+              <img src="images/avatarmen.png" alt="Daniel" class="blog-detail__comment-avatar">
+              <div class="blog-detail__comment-body">
+                <div class="blog-detail__comment-header">
+                  <strong class="blog-detail__comment-author">Daniel</strong>
+                  <span class="blog-detail__comment-date">April 29, 2025</span>
+                </div>
+                <p class="blog-detail__comment-text">
+                  Very simple and clear explanation, well done.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- Related Posts -->
+        <section class="blog-detail__related" data-aos="fade-down" data-aos-delay="400">
+          <h3 class="blog-detail__related-title">Related Posts</h3>
+          
+          <div class="blog-detail__related-list">         
+            <a href="blog1.html" class="blog-detail__related-card">
+              <div class="blog-detail__image-wrapper">
+                <img src="images/blog1.jpg" alt="HTML ve CSS" class="blog-detail__related-image">
+              </div>
+              <div class="blog-detail__related-content">
+                <h4 class="blog-detail__related-heading">Minimalism in Web Design</h4>
+              </div>
+            </a>
+
+            <a href="blog2.html" class="blog-detail__related-card">
+              <div class="blog-detail__image-wrapper">
+                <img src="images/blog2.jpg" alt="Responsive Design" class="blog-detail__related-image">
+              </div>
+              <div class="blog-detail__related-content">
+                <h4 class="blog-detail__related-heading">Tips for Responsive Design</h4>
+              </div>
+            </a>
+          </div>
+
+        </section>
+
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__container">
+        <!-- Footer Top -->
+        <div class="footer__top">
+
+          <!-- 1. Mini Logo + About -->
+          <div class="footer__about">
+            <div class="footer__about-logo">
+              <img src="images/logo.png" alt="Kaiwen Logo">
+              <p>As a frontend developer, I build clean, modern, and fast web interfaces.</p>
+            </div>
+
+            <!-- Social Media -->
+            <div class="footer__about-social">
+              <div class="footer__about-social-links">
+                <a href="#" class="footer__about-social-link" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                <a href="#" class="footer__about-social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="footer__about-social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Services -->
+          <div class="footer__services">
+            <h4>SERVICES</h4>
+            <ul>
+              <li>Frontend Development</li>
+              <li>Responsive Web Design</li>
+              <li>UI/UX Optimization</li>
+              <li>Custom HTML/CSS Templates</li>
+              <li>Landing Page Creation</li>
+              <li>Website Performance Tuning</li>
+              <li>Cross-Browser Compatibility</li>
+            </ul>
+          </div>
+
+          <!-- 3. Pages -->
+          <div class="footer__pages">
+            <h4>PAGES</h4>
+            <ul>
+              <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+              <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
+              <li><a href="projects.html"><i class="fas fa-briefcase"></i> Projects</a></li>
+              <li><a href="blog.html"><i class="fas fa-pen-nib"></i> Blog</a></li>
+              <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- 4. Contact -->
+          <div class="footer__contact">
+
+            <!-- Subscription Box -->
+            <div class="footer__subscribe">
+              <form>
+                <input type="email" placeholder="Your email address">
+                <button type="submit">Subscribe</button>
+              </form>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer__contact-info">
+              <ul class="footer__contact-info-list">
+                <li><i class="fas fa-map-marker-alt"></i> Bangkok, Thailand</li>
+                <li><i class="fas fa-envelope"></i> info@kaiwen.dev</li>
+                <li><i class="fas fa-phone"></i> +12 345 67 89</li>
+                <li><i class="fas fa-clock"></i> Weekdays 09:00 – 18:00</li>
+              </ul>
+            </div>
+    
+          </div>
+
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer__bottom">
+          <!-- Copyright -->
+          <div class="footer__legal">
+            <p>&copy; 2025 Kaiwen. All rights reserved.</p>
+            <p>Theme: <a href="#">PortfolioKaiwen</a></p>
+          </div>
+        </div>
+        
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="main.js"></script>
+  
+</body>
+</html>

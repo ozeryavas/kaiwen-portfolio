@@ -1,0 +1,102 @@
+.about {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  background-color: rgba(39, 63, 79, 0.2);
+  border-radius: 6rem 0.6rem;
+  padding: 3rem;
+}
+
+.about__title {
+  text-align: center;
+  text-shadow: 2px 2px 6px #273f4f;
+  color: #fe7743;
+  margin-bottom: 3rem;
+}
+
+.about__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.about__top {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.about__left {
+  flex: 2;
+}
+
+.about__left-image {
+  width: 100%;
+  height: 100%;
+}
+
+.about__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 3;
+  text-align: center;
+  padding: 2rem;
+}
+
+.about__right-title {
+  font-size: 2rem;
+}
+
+.about__description {
+  margin-bottom: 1rem;
+}
+
+.about__skills {
+  display: flex;
+  flex-direction: row;
+}
+
+.about__bottom {
+  display: flex;
+  justify-content: center;  
+  align-items: center;   
+  flex: 1;
+  padding: 0.6rem;
+}
+
+.about__buttons a {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.8rem 1rem;
+  border-radius: 3px;
+  margin: 0.8rem;
+  cursor: pointer;
+}
+
+.about__projects-button {
+  background-color: #efeeea;
+  color: #000000;
+  border: 1px solid #000000;
+  transition: all 0.3s ease;
+}
+
+.about__projects-button:hover {
+  color: #fe7743;
+}
+
+.about__contact-button {
+  background-color: #000000;
+  color: #efeeea;
+  border: 1px solid #efeeea;
+  transition: all 0.3s ease;
+}
+
+.about__contact-button:hover {
+  color: #fe7743;
+}

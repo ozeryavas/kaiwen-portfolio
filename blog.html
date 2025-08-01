@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaiwen - Blog</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide&effect=outline">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/blog.css">
+</head>
+<body>
+
+  <div class="page-wrapper">
+    
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <nav class="navbar__container">
+        
+        <!-- Logo -->
+        <a href="index.html" class="logo">
+          <span class="logo__text font-effect-outline"><span class="logo__highlight">Kai</span>wen</span>
+        </a>
+
+        <!-- Hamburger -->
+        <div class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- Menu -->
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link"><i class="nav-link__icon fas fa-home"></i> Home</a></li>
+          <li><a href="about.html" class="nav-link"><i class="nav-link__icon fas fa-user"></i> About</a></li>
+          <li><a href="projects.html" class="nav-link"><i class="nav-link__icon fas fa-briefcase"></i> Projects</a></li>
+          <li><a href="blog.html" class="nav-link nav-link--active"><i class="nav-link__icon fas fa-pen-nib"></i> Blog</a></li>
+          <li><a href="contact.html" class="nav-link"><i class="nav-link__icon fas fa-envelope"></i> Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->   
+    <main>
+      <div class="main-container blog" data-aos="fade-down" data-aos-delay="200">
+
+        <h1 class="blog__title">Blog</h1>
+
+        <div class="blog__container">
+          <article class="blog__card">
+            <a href="blog1.html" class="blog__card-image-wrapper">
+              <img src="images/blog1.jpg" alt="Minimalism" class="blog__card-image">
+            </a>
+
+            <div class="blog__card-content">
+              <h2 class="blog__card-title">
+                <a href="blog1.html">Minimalism in Web Design</a>
+              </h2>
+
+              <div class="blog__card-meta" aria-label="Author and date info">
+                <i class="fas fa-user" aria-hidden="true"></i> Kaiwen
+                <span class="dot">&bull;</span>
+                <i class="fas fa-calendar-alt" aria-hidden="true"></i> June 19, 2025
+              </div>
+                           
+              <p class="blog__card-description">We explore the impact of minimal design on modern websites and its contributions to user experience.</p>
+
+              <div class="blog__card-tags">
+                <span class="tag" data-aos="fade-down" data-aos-delay="400">#WebDesign</span>
+                <span class="tag" data-aos="fade-down" data-aos-delay="500">#UIUX</span>
+                <span class="tag" data-aos="fade-down" data-aos-delay="600">#Minimalism</span>
+              </div>
+
+              <a href="blog1.html" class="blog__card-content-link">
+                Read More <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="blog__card">
+            <a href="blog2.html" class="blog__card-image-wrapper">
+              <img src="images/blog2.jpg" alt="Responsive Design" class="blog__card-image">
+            </a>
+
+            <div class="blog__card-content">
+              <h2 class="blog__card-title">
+                <a href="blog2.html">Responsive Design Tips</a>
+              </h2>     
+
+              <div class="blog__card-meta" aria-label="Author and date info">
+                <i class="fas fa-user" aria-hidden="true"></i> Kaiwen
+                <span class="dot">&bull;</span>
+                <i class="fas fa-calendar-alt" aria-hidden="true"></i> June 19, 2025
+              </div>
+
+              <p class="blog__card-description">Tips for creating user-friendly designs that work flawlessly across all devices.</p>
+
+              <div class="blog__card-tags">
+                <span class="tag" data-aos="fade-down" data-aos-delay="100">#Reponsive</span>
+                <span class="tag" data-aos="fade-down" data-aos-delay="200">#MobileFriendly</span>
+                <span class="tag" data-aos="fade-down" data-aos-delay="300">#MediaQueries</span>
+              </div>
+
+              <a href="blog2.html" class="blog__card-content-link">
+                Read More <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="blog__card">
+            <a href="blog3.html" class="blog__card-image-wrapper">
+              <img src="images/blog3.jpg" alt="Clean Coding" class="blog__card-image">
+            </a>
+
+            <div class="blog__card-content">
+              <h2 class="blog__card-title">
+                <a href="blog3.html">Clean Coding with HTML5 and CSS3</a>
+              </h2>
+
+              <div class="blog__card-meta" aria-label="Author and date info">
+                <i class="fas fa-user" aria-hidden="true"></i> Kaiwen
+                <span class="dot">&bull;</span>
+                <i class="fas fa-calendar-alt" aria-hidden="true"></i> June 19, 2025
+              </div>
+
+              <p class="blog__card-description">Ways to build more readable and maintainable projects using modern coding standards.</p>
+
+              <div class="blog__card-tags">
+                <span class="tag" data-aos="fade-down" data-aos-delay="100">#HTML5</span>
+                <span class="tag" data-aos="fade-down" data-aos-delay="200">#CSS3</span>
+                <span class="tag" data-aos="fade-down" data-aos-delay="300">#CleanCode</span>
+                <span class="tag" data-aos="fade-down" data-aos-delay="400">#BestPractices</span>
+              </div>
+
+              <a href="blog3.html" class="blog__card-content-link">
+                Read More <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+        
+      </div>
+    </main>
+    
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__container">
+
+        <!-- Footer Top -->
+        <div class="footer__top">
+
+          <!-- 1. Mini Logo + About -->
+          <div class="footer__about">
+
+            <div class="footer__about-logo">
+              <img src="images/logo.png" alt="Kaiwen Logo">
+              <p>As a frontend developer, I build clean, modern, and fast web interfaces.</p>
+            </div>
+
+            <!-- Social Media -->
+            <div class="footer__about-social">
+              <div class="footer__about-social-links">
+                <a href="#" class="footer__about-social-link" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                <a href="#" class="footer__about-social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="footer__about-social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- 2. Services -->
+          <div class="footer__services">
+            <h4>SERVICES</h4>
+            <ul>
+              <li>Frontend Development</li>
+              <li>Responsive Web Design</li>
+              <li>UI/UX Optimization</li>
+              <li>Custom HTML/CSS Templates</li>
+              <li>Landing Page Creation</li>
+              <li>Website Performance Tuning</li>
+              <li>Cross-Browser Compatibility</li>
+            </ul>
+          </div>
+
+          <!-- 3. Pages -->
+          <div class="footer__pages">
+            <h4>PAGES</h4>
+            <ul>
+              <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+              <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
+              <li><a href="projects.html"><i class="fas fa-briefcase"></i> Projects</a></li>
+              <li><a href="blog.html"><i class="fas fa-pen-nib"></i> Blog</a></li>
+              <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- 4. Contact -->
+          <div class="footer__contact">
+
+            <!-- Subscription Box -->
+            <div class="footer__subscribe">
+              <form>
+                <input type="email" placeholder="Your email address">
+                <button type="submit">Subscribe</button>
+              </form>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer__contact-info">
+              <ul class="footer__contact-info-list">
+                <li><i class="fas fa-map-marker-alt"></i> Bangkok, Thailand</li>
+                <li><i class="fas fa-envelope"></i> info@kaiwen.dev</li>
+                <li><i class="fas fa-phone"></i> +12 345 67 89</li>
+                <li><i class="fas fa-clock"></i> Weekdays 09:00 – 18:00</li>
+              </ul>
+            </div>
+    
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer__bottom">
+
+          <!-- Copyright -->
+          <div class="footer__legal">
+            <p>&copy; 2025 Kaiwen. All rights reserved.</p>
+            <p>Theme: <a href="#">PortfolioKaiwen</a></p>
+          </div>
+
+        </div>      
+      </div>
+    </footer>
+      
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>

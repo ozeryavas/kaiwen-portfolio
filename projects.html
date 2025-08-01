@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaiwen - Projects</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide&effect=outline">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/projects.css">
+</head>
+<body>
+
+  <div class="page-wrapper">
+    
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <nav class="navbar__container">
+        
+        <!-- Logo -->
+        <a href="index.html" class="logo">
+          <span class="logo__text font-effect-outline"><span class="logo__highlight">Kai</span>wen</span>
+        </a>
+
+        <!-- Hamburger -->
+        <div class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- Menu -->
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link"><i class="nav-link__icon fas fa-home"></i> Home</a></li>
+          <li><a href="about.html" class="nav-link"><i class="nav-link__icon fas fa-user"></i> About</a></li>
+          <li><a href="projects.html" class="nav-link nav-link--active"><i class="nav-link__icon fas fa-briefcase"></i> Projects</a></li>
+          <li><a href="blog.html" class="nav-link"><i class="nav-link__icon fas fa-pen-nib"></i> Blog</a></li>
+          <li><a href="contact.html" class="nav-link"><i class="nav-link__icon fas fa-envelope"></i> Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <div class="main-container projects" data-aos="fade-down" data-aos-delay="200">
+
+        <h1 class="projects__title">Projects</h1>
+
+        <!-- Projects -->
+        <div class="projects__container">
+
+          <!-- Project 1 -->
+          <section class="project-box__card" data-aos="fade-down" data-aos-delay="400">
+            <a href="#" class="project__box-image-wrapper">
+              <img src="images/minimal.jpg" alt="Project 1" class="project-box__image">
+            </a>
+            
+            <div class="project-box__content">
+              <a href="#">
+                <h3 class="project-box__title">Minimal Blog Design</h3>
+              </a>
+
+              <p class="project-box__desc">A clean, modern, and readable blog layout. Built with clean HTML/CSS structure.</p>
+
+              <div class="project-box__tags">
+                <span class="tag"><i class="fab fa-html5"></i> HTML</span>
+                <span class="tag"><i class="fab fa-css3-alt"></i> CSS</span>
+                <span class="tag"><i class="fab fa-js"></i> JavaScript</span>
+              </div>   
+
+              <a href="#" class="project-box__button">
+                View Details <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>             
+            </div>
+          </section>
+
+          <!-- Project 2 -->
+          <section class="project-box__card" data-aos="fade-down" data-aos-delay="600">
+            <a href="#" class="project__box-image-wrapper">
+              <img src="images/landingpage.jpg" alt="Project 2" class="project-box__image">
+            </a>
+
+            <div class="project-box__content">
+              <a href="#">
+                <h3 class="project-box__title">Agency Landing Page</h3>
+              </a>
+
+              <p class="project-box__desc">A modern, fast, and impressive landing page for a digital agency.</p>
+
+              <div class="project-box__tags">
+                <span class="tag"><i class="fab fa-html5"></i> HTML</span>
+                <span class="tag"><i class="fab fa-css3-alt"></i> CSS</span>
+                <span class="tag"><i class="fab fa-js"></i> JavaScript</span>
+              </div>      
+
+              <a href="#" class="project-box__button">
+                View Details <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>            
+            </div>
+          </section>
+
+          <!-- Project 3 -->
+          <section class="project-box__card" data-aos="fade-down" data-aos-delay="800">
+            <a href="#" class="project__box-image-wrapper">
+              <img src="images/portfolio.jpg" alt="Project 3" class="project-box__image">
+            </a>
+            
+            <div class="project-box__content">
+              <a href="#">
+                <h3 class="project-box__title">Portfolio Website</h3>
+              </a>
+
+              <p class="project-box__desc">A responsive developer portfolio for personal branding and contact.</p>
+
+              <div class="project-box__tags">
+                <span class="tag"><i class="fab fa-html5"></i> HTML</span>
+                <span class="tag"><i class="fab fa-css3-alt"></i> CSS</span>
+                <span class="tag"><i class="fab fa-js"></i> JavaScript</span>
+              </div> 
+
+              <a href="#" class="project-box__button">
+                View Details <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a> 
+            </div>
+          </section>
+
+        </div>
+        
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__container">
+
+        <!-- Footer Top -->
+        <div class="footer__top">
+
+          <!-- 1. Mini Logo + About -->
+          <div class="footer__about">
+
+            <div class="footer__about-logo">
+              <img src="images/logo.png" alt="Kaiwen Logo">
+              <p>As a frontend developer, I build clean, modern, and fast web interfaces.</p>
+            </div>
+
+            <!-- Social Media -->
+            <div class="footer__about-social">
+              <div class="footer__about-social-links">
+                <a href="#" class="footer__about-social-link" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                <a href="#" class="footer__about-social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="footer__about-social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- 2. Services -->
+          <div class="footer__services">
+            <h4>SERVICES</h4>
+            <ul>
+              <li>Frontend Development</li>
+              <li>Responsive Web Design</li>
+              <li>UI/UX Optimization</li>
+              <li>Custom HTML/CSS Templates</li>
+              <li>Landing Page Creation</li>
+              <li>Website Performance Tuning</li>
+              <li>Cross-Browser Compatibility</li>
+            </ul>
+          </div>
+
+          <!-- 3. Pages -->
+          <div class="footer__pages">
+            <h4>PAGES</h4>
+            <ul>
+              <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+              <li><a href="about.html"><i class="fas fa-user"></i> About</a></li>
+              <li><a href="projects.html"><i class="fas fa-briefcase"></i> Projects</a></li>
+              <li><a href="blog.html"><i class="fas fa-pen-nib"></i> Blog</a></li>
+              <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+          </div>
+
+          <!-- 4. Contact -->
+          <div class="footer__contact">
+
+            <!-- Subscription Box -->
+            <div class="footer__subscribe">
+              <form>
+                <input type="email" placeholder="Your email address">
+                <button type="submit">Subscribe</button>
+              </form>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer__contact-info">
+              <ul class="footer__contact-info-list">
+                <li><i class="fas fa-map-marker-alt"></i> Bangkok, Thailand</li>
+                <li><i class="fas fa-envelope"></i> info@kaiwen.dev</li>
+                <li><i class="fas fa-phone"></i> +12 345 67 89</li>
+                <li><i class="fas fa-clock"></i> Weekdays 09:00 – 18:00</li>
+              </ul>
+            </div>
+    
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer__bottom">
+
+          <!-- Copyright -->
+          <div class="footer__legal">
+            <p>&copy; 2025 Kaiwen. All rights reserved.</p>
+            <p>Theme: <a href="#">PortfolioKaiwen</a></p>
+          </div>
+
+        </div>      
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>
